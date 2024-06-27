@@ -14,7 +14,7 @@ const AllRoutes = () => {
         <ScrollTopBehaviour />
         <Routes>
           <Route path="/" element={<HomeDark />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/NotFound" element={<NotFound />} />
         </Routes>
       </ContextProvider>
     </>
