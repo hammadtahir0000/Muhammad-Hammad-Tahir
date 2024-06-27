@@ -44,7 +44,7 @@ const NotFound = () => {
 
   useEffect(() => {
     // Immediately redirect to home page
-    navigate("/");
+    navigate("/HomeDark");
   }, [navigate]);
 
   return (
