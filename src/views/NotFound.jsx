@@ -1,13 +1,13 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Hero from "../../components/hero/Hero";
-import Index from "../../components/about/index";
+import Hero from "../../src/components/hero/Hero";
+import Index from "../../src/components/about/index";
 import Address from "../../src/components/Address";
-import Portfolio from "../../components/portfolio/Portfolio";
-import Blog from "../../components/blog/Blog";
-import Contact from "../../components/Contact";
-import Social from "../../components/Social";
-import SwitchDark from "../../components/switch/SwitchDark";
+import Portfolio from "../../src/components/portfolio/Portfolio";
+import Blog from "../../src/components/blog/Blog";
+import Contact from "../../src/components/Contact";
+import Social from "../../src/components/Social";
+import SwitchDark from "../../src/components/switch/SwitchDark";
 
 const menuItem = [
   { icon: "fa-briefcase", menuName: "Portfolio" },
