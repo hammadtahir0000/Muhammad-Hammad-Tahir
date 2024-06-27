@@ -36,7 +36,7 @@ const RedirectToHome = () => {
   useEffect(() => {
     const specificURL = "https://hammadtahir0000.github.io/Muhammad-Hammad-Tahir/";
     
-    if (location.pathname === specificURLPath) {
+    if (location.pathname === specificURL) {
       navigate("/", { replace: true });
     }
   }, [location, navigate]);
