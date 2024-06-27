@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Muhammad-Hammad-Tahir/static/css/main.6e4c0e3c.css",
-    "main.js": "/Muhammad-Hammad-Tahir/static/js/main.75d1c42f.js",
+    "main.js": "/Muhammad-Hammad-Tahir/static/js/main.59852bde.js",
     "static/js/27.e11e9da7.chunk.js": "/Muhammad-Hammad-Tahir/static/js/27.e11e9da7.chunk.js",
     "static/media/1.png": "/Muhammad-Hammad-Tahir/static/media/1.71bb6eeea4dcf694f0a7.png",
     "static/media/9.png": "/Muhammad-Hammad-Tahir/static/media/9.371ddb90150237f7acdb.png",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.6e4c0e3c.css",
-    "static/js/main.75d1c42f.js"
+    "static/js/main.59852bde.js"
   ]
 }
