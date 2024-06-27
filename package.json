@@ -1,7 +1,8 @@
 {
+  "homepage": "https://hammadtahir0000.github.io./Muhammad-Hammad-Tahir",
   "name": "tunis",
   "version": "2.2.1",
-  "homepage": "/https://hammadtahir.webstacking.com/",
+  
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
