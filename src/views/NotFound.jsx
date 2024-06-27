@@ -60,6 +60,7 @@ const NotFound = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    console.log("hammad")
     navigate("/HomeDark"); // Redirect to the HomeDark route immediately
   }, [navigate]);
 
