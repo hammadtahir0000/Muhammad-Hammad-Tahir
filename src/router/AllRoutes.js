@@ -23,9 +23,6 @@ import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
 
 // export default AllRoutes;
 // import React from "react";
-import { Routes, Route } from "react-router-dom";
-import HomeDark from "./views/all-home-version/HomeDark";
-import NotFound from "./views/NotFound";
 
 const App = () => {
   return (
