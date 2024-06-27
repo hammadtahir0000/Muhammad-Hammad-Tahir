@@ -36,6 +36,23 @@
 // };
 
 // export default NotFound;
+// import React, { useEffect } from "react";
+// import { useNavigate } from "react-router-dom";
+
+// const NotFound = () => {
+//   const navigate = useNavigate();
+
+//   useEffect(() => {
+//     // Immediately redirect to home page
+//     navigate("/HomeDark");
+//   }, [navigate]);
+
+//   // No JSX content returned when performing immediate redirect
+
+//   return null;
+// };
+
+// export default NotFound;
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -43,13 +60,10 @@ const NotFound = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Immediately redirect to home page
-    navigate("/HomeDark");
+    navigate("/HomeDark"); // Redirect to the HomeDark route immediately
   }, [navigate]);
 
-  // No JSX content returned when performing immediate redirect
-
-  return null;
+  return null; // No content is rendered
 };
 
 export default NotFound;

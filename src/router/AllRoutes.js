@@ -7,21 +7,36 @@ import { Routes, Route } from "react-router-dom";
 import ContextProvider from "../Context/ContextProvider";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
 
-const AllRoutes = () => {
+// const AllRoutes = () => {
+//   return (
+//     <>
+//       <ContextProvider>
+//         <ScrollTopBehaviour />
+//         <Routes>
+//           <Route path="/" element={<HomeDark />} />
+//           <Route path="*" element={<NotFound />} />
+//         </Routes>
+//       </ContextProvider>
+//     </>
+//   );
+// };
+
+// export default AllRoutes;
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import HomeDark from "./views/all-home-version/HomeDark";
+import NotFound from "./views/NotFound";
+
+const App = () => {
   return (
-    <>
-      <ContextProvider>
-        <ScrollTopBehaviour />
-        <Routes>
-          <Route path="/" element={<HomeDark />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </ContextProvider>
-    </>
+    <Routes>
+      <Route path="/" element={<HomeDark />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 };
 
-export default AllRoutes;
+export default App;
 
 // import React, { useEffect } from "react";
 // import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from "react-router-dom";
